@@ -69,4 +69,9 @@
     <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)"</string>
     <string name="value_equals_default">def</string>
     <string name="show_light_on_zen_title">Blink during Do Not Disturb</string>
+	
+	<!-- Battery stats -->
+    <string name="battery_stats_reset">Reset Stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="ok_string">Ok</string>
 </resources>
