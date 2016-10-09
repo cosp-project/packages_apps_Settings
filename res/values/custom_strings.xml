@@ -98,4 +98,8 @@
     <string name="face_auto_unlock_title">Automatic face unlock</string>
     <string name="face_auto_unlock_summary">Dismiss lock screen after face unlock</string>
 
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+
 </resources>
