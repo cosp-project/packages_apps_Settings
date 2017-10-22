@@ -16,4 +16,7 @@
     <string name="cosp_settings_title">COSP Settings</string>
     <string name="cosp_settings_summary">Additional settings</string>
 
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
+
 </resources>
