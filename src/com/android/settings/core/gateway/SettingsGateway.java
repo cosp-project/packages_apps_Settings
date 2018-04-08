@@ -139,6 +139,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.cosp.settings.COSPSettings;
+import com.cosp.settings.fragments.SmartPixels;
 
 public class SettingsGateway {
 
@@ -265,7 +266,8 @@ public class SettingsGateway {
             DirectoryAccessDetails.class.getName(),
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
-            COSPSettings.class.getName()
+            COSPSettings.class.getName(),
+            SmartPixels.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -305,5 +307,6 @@ public class SettingsGateway {
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.MyDeviceInfoActivity.class.getName(),
             Settings.COSPSettingsActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName()
     };
 }
