@@ -21,7 +21,7 @@
     android:key="my_device_info_pref_screen"
     android:title="@string/about_settings">
     
-    <!-- Bootleggers About logo -->
+    <!-- EXPOSED KANG CALL THE POLICE WEE WOO srsly tho this is abt screen -->
     <PreferenceScreen
         android:key="cosp_about"
         android:enabled="false"
