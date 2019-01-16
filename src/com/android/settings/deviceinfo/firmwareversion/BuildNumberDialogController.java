@@ -37,9 +37,9 @@ public class BuildNumberDialogController {
     }
 
     private String getPixelExperienceVersion(){
-        String buildDate = SystemProperties.get("org.pixelexperience.build_date","");
-        String buildType = SystemProperties.get("org.pixelexperience.build_type","unofficial").toUpperCase();
-        return buildDate.equals("") ? "" : "PixelExperience-" + buildDate + "-" + buildType;
+        String buildDate = SystemProperties.get("org.cosp.build_date","");
+        String buildType = SystemProperties.get("org.cosp.build_type","unofficial").toUpperCase();
+        return buildDate.equals("") ? "" : "COSP-" + buildDate + "-" + buildType;
     }
 
     /**
