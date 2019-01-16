@@ -94,4 +94,8 @@
     <string name="weather_unit_metric" translatable="false">Celsius</string>
     <string name="weather_unit_imperial" translatable="false">Fahrenheit</string>
 
+    <!-- Face auto unlock -->
+    <string name="face_auto_unlock_title">Automatic face unlock</string>
+    <string name="face_auto_unlock_summary">Dismiss lock screen after face unlock</string>
+
 </resources>
