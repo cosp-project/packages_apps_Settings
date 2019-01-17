@@ -12,8 +12,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- KCUF Settings -->
-    <string name="kcuf_settings_title">KCUFSettings</string>
-    <string name="kcuf_settings_summary">Additional settings</string>
+    <!-- COSP Settings -->
+    <string name="cosp_settings_title">COSP Settings</string>
+    <string name="cosp_settings_summary">Additional settings</string>
 
 </resources>

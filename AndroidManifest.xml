@@ -3345,13 +3345,13 @@
         <service android:name=".fuelgauge.batterytip.AnomalyDetectionJobService"
                  android:permission="android.permission.BIND_JOB_SERVICE" />
 
-        <!-- KCUFSettings -->
-        <activity android:name=".Settings$KCUFSettingsActivity"
-            android:label="@string/kcuf_settings_title"
-            android:icon="@drawable/ic_homepage_kcuf"
+        <!-- COSPSettings -->
+        <activity android:name=".Settings$COSPSettingsActivity"
+            android:label="@string/cosp_settings_title"
+            android:icon="@drawable/ic_homepage_cosp"
             android:taskAffinity="com.android.settings">
             <intent-filter android:priority="1">
-                <action android:name="com.kcuf.settings.KCUFSettings" />
+                <action android:name="com.cosp.settings.COSPSettings" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
@@ -3366,11 +3366,11 @@
             <meta-data android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.homepage" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.kcuf.settings.KCUFSettings" />
+                android:value="com.cosp.settings.COSPSettings" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
             <meta-data android:name="com.android.settings.summary"
-                android:resource="@string/kcuf_settings_summary"/>
+                android:resource="@string/cosp_settings_summary"/>
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->

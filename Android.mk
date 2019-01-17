@@ -19,7 +19,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_USE_AAPT2 := true
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
-LOCAL_SRC_FILES += $(call all-java-files-under, ../KCUFSettings/src)
+LOCAL_SRC_FILES += $(call all-java-files-under, ../COSPSettings/src)
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     android-slices-builders \
@@ -55,7 +55,7 @@ LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     frameworks/support/v7/appcompat/res \
     frameworks/support/v7/recyclerview/res \
     frameworks/support/design/res \
-    packages/apps/KCUFSettings/res
+    packages/apps/COSPSettings/res
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
@@ -66,7 +66,7 @@ LOCAL_AAPT_FLAGS := --auto-add-overlay \
     --extra-packages android.support.v7.appcompat \
     --extra-packages android.support.v7.recyclerview \
     --extra-packages android.support.design \
-    --extra-packages com.kcuf.settings
+    --extra-packages com.cosp.settings
 
 ifneq ($(INCREMENTAL_BUILDS),)
     LOCAL_PROGUARD_ENABLED := disabled
