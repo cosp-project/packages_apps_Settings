@@ -16,4 +16,7 @@
     <string name="cosp_settings_title">Ustawienia COSP</string>
     <string name="cosp_settings_summary">Dodatkowe ustawienia</string>
 
+    <!-- Shortcuts -->
+    <color name="icon_accent_custom">@*android:color/accent_device_default_light</color>
+
 </resources>
