@@ -21,15 +21,6 @@
     android:title="@string/header_category_system"
     settings:initialExpandedChildrenCount="4">
 
-    <!-- Button Settings -->
-    <Preference
-        android:key="button_settings"
-        android:title="@string/button_pref_title"
-        android:icon="@drawable/ic_button_settings"
-        android:order="-70"
-        android:fragment="com.android.settings.custom.buttons.ButtonSettings"
-        settings:controller="com.android.settings.custom.buttons.ButtonSettingsPreferenceController"/>
-
     <!-- Backup -->
     <Preference
         android:key="backup_settings"
