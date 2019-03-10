@@ -33,9 +33,5 @@
     <string name="sim_enabler_in_call">కాల్ లో ఉన్నప్పుడు ఆపరేషన్ నిర్వహించడం సాధ్యపడదు.</string>
     <string name="sim_enabler_both_inactive">అన్ని SIM కార్డులను నిలిపివేయడం కుదరదు</string>
     <!-- Generic stuff used everywhere -->
-    <!-- Buttons -->
-    <!-- Key backlight -->
-    <!-- Weather -->
-    <!-- Ambient Play -->
     <!-- Face auto unlock -->
 </resources>

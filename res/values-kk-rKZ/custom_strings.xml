@@ -37,9 +37,5 @@
     <string name="sub_activate_failed">Қосылу сәтсіз аяқталды.</string>
     <string name="sub_deactivate_success">SIM белсендірілді.</string>
     <!-- Generic stuff used everywhere -->
-    <!-- Buttons -->
-    <!-- Key backlight -->
-    <!-- Weather -->
-    <!-- Ambient Play -->
     <!-- Face auto unlock -->
 </resources>

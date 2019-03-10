@@ -29,22 +29,5 @@
     <string name="sim_enabler_will_disable_sim_title">توجہ فرمائیں</string>
     <!-- Generic stuff used everywhere -->
     <string name="reset">ری سیٹ کریں</string>
-    <!-- Buttons -->
-    <string name="button_pref_title">بٹن</string>
-    <string name="hardware_keys_home_key_title">ہوم بٹن</string>
-    <string name="hardware_keys_back_key_title">واپسی بٹن</string>
-    <string name="hardware_keys_menu_key_title">مینو بٹن</string>
-    <string name="hardware_keys_assist_key_title">تلاش بٹن</string>
-    <string name="hardware_keys_appswitch_key_title">گذشتہ ایپس بٹن</string>
-    <string name="hardware_keys_camera_key_title">کیمرہ بٹن</string>
-    <string name="hardware_keys_action_nothing">کوئی کام نہیں</string>
-    <string name="hardware_keys_action_search">سرچ ایسسٹنٹ</string>
-    <string name="hardware_keys_action_voice_search">صوتی تلاش</string>
-    <string name="hardware_keys_action_launch_camera">کیمرا لانچ کریں</string>
-    <string name="hardware_keys_action_split_screen">اسکرین کو آدھا کریں</string>
-    <string name="hardware_keys_swipe_left_key_title">بائیں طرف پھیریں</string>
-    <!-- Key backlight -->
-    <!-- Weather -->
-    <!-- Ambient Play -->
     <!-- Face auto unlock -->
 </resources>

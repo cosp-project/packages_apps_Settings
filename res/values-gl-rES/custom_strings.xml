@@ -34,9 +34,5 @@
     <string name="sub_deactivate_success">SIM desactivada.</string>
     <string name="sub_deactivate_failed">Desactivación fallida.</string>
     <!-- Generic stuff used everywhere -->
-    <!-- Buttons -->
-    <!-- Key backlight -->
-    <!-- Weather -->
-    <!-- Ambient Play -->
     <!-- Face auto unlock -->
 </resources>

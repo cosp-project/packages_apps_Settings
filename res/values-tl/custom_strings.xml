@@ -34,28 +34,5 @@
     <string name="sub_deactivate_success">Ang SIM ay naka-deactivate na.</string>
     <!-- Generic stuff used everywhere -->
     <string name="reset">I-reset</string>
-    <!-- Buttons -->
-    <string name="hardware_keys_action_nothing">Walang aksyon</string>
-    <string name="hardware_keys_action_menu">Buksan/isara ang menu</string>
-    <string name="hardware_keys_action_launch_camera">Buksan ang camera</string>
-    <string name="hardware_keys_action_sleep">Patayin ang screen</string>
-    <string name="hardware_keys_action_last_app">Huling app</string>
-    <string name="hardware_keys_long_tap_key_title">Mahabang pindot</string>
-    <string name="button_wake_title">Buksan ang device</string>
-    <string name="camera_launch_title">Buksan ang camera</string>
-    <!-- Key backlight -->
-    <string name="backlight_timeout_unlimited">Huwag patayin</string>
-    <string name="backlight_summary_disabled">Naka-disable</string>
-    <string name="backlight_summary_enabled">Naka-enable</string>
-    <!-- Weather -->
-    <string name="weather_title">Panahon</string>
-    <string name="weather_unit">Yunit ng temperatura</string>
-    <!-- Ambient Play -->
-    <string name="ambient_play_lockscreen_title">Ipakita ang mga kanta sa lock screen</string>
-    <string name="ambient_play_notifications_title">Mga abiso</string>
-    <string name="ambient_play_history_today">Ngayong araw</string>
-    <string name="ambient_play_history_yesterday">Kahapon</string>
-    <string name="ambient_play_history_dialog_play">Patugtugin</string>
-    <string name="ambient_play_history_dialog_remove">Tanggalin</string>
     <!-- Face auto unlock -->
 </resources>
