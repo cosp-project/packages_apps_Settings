@@ -44,4 +44,26 @@
     <!-- Face auto unlock -->
     <string name="face_auto_unlock_title">Автоматическая разблокировка по лицу</string>
     <string name="face_auto_unlock_summary">Пропустить экран блокировки после разблокировки лицом</string>
+    <!-- Notch behavior -->
+    <string name="display_cutout_mode_title">Параметры выреза</string>
+    <string name="display_cutout_mode_normal">По умолчанию</string>
+    <string name="display_cutout_mode_hidden">Скрыть вырез</string>
+    <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Профиль оптимизации</string>
+    <string name="thermal_control_per_app_default">Без оптимизации</string>
+    <string name="thermal_control_per_app_benchmark">Производительность</string>
+    <string name="thermal_control_per_app_games">Игры</string>
+    <string name="thermal_control_per_app_browser">Браузер</string>
+    <string name="thermal_control_per_app_video_playback">Воспроизведение видео</string>
+    <string name="thermal_control_per_app_dialer">Номеронабиратель</string>
+    <string name="thermal_control_per_app_camera">Камера</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="unlock_quick_unlock_control_summary">Автоматическая разблокировка при вводе правильного пароля или PIN-кода</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Цвет светодиода</string>
+    <string name="custom_light_on_time_title">Длительность свечения светодиода (мс)</string>
+    <string name="custom_light_off_time_title">Длительность затухания светодиода (мс)</string>
+    <string name="value_equals_default">умолч.</string>
+    <string name="show_light_on_zen_title">Включить светодиод в режиме «Не беспокоить»</string>
 </resources>
