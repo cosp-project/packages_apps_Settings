@@ -44,4 +44,38 @@
     <!-- Face auto unlock -->
     <string name="face_auto_unlock_title">Sblocco con viso automatico</string>
     <string name="face_auto_unlock_summary">Ignora la schermata di blocco dopo lo sblocco con il viso</string>
+	
+	<!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Sblocco rapido</string>
+    <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando viene inserito il PIN/password corretto</string>
+
+    <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Profili ottimizzazione</string>
+    <string name="thermal_control_per_app_default">Nessuna ottimizzazione</string>
+    <string name="thermal_control_per_app_benchmark">Prestazioni</string>
+    <string name="thermal_control_per_app_games">Giochi</string>
+    <string name="thermal_control_per_app_browser">Browser</string>
+    <string name="thermal_control_per_app_video_playback">Riproduzione video</string>
+    <string name="thermal_control_per_app_dialer">Chiamata</string>
+    <string name="thermal_control_per_app_camera">Fotocamera</string>
+
+    <!-- Custom light color -->
+    <string name="custom_light_title">Colore luce</string>
+    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
+    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)"</string>
+    <string name="value_equals_default">def</string>
+    <string name="show_light_on_zen_title">Blink during Do Not Disturb</string>
+	
+	<!-- Battery stats -->
+    <string name="battery_stats_reset">Ripristina statistiche</string>
+    <string name="battery_stats_message">Le statistiche e la cronologia batteria verranno ripristinate</string>
+    <string name="ok_string">Ok</string>
+	
+    <!-- Notch behavior -->
+    <string name="display_cutout_mode_title">Comportamento notch</string>
+    <string name="display_cutout_mode_normal">Predefinito</string>
+    <string name="display_cutout_mode_hidden">Nascosto</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Unisci il volume della suoneria &amp; e delle notifiche</string>
 </resources>
