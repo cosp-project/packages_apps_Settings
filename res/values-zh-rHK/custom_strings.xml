@@ -44,4 +44,38 @@
     <!-- Face auto unlock -->
     <string name="face_auto_unlock_title">自動人臉辨識解鎖</string>
     <string name="face_auto_unlock_summary">人臉辨識後將自動解鎖螢幕</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">快速解锁</string>
+    <string name="unlock_quick_unlock_control_summary">输入正确的PIN码或密码后自动解锁</string>
+
+    <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">优化配置</string>
+    <string name="thermal_control_per_app_default">未优化</string>
+    <string name="thermal_control_per_app_benchmark">性能</string>
+    <string name="thermal_control_per_app_games">游戏</string>
+    <string name="thermal_control_per_app_browser">浏览</string>
+    <string name="thermal_control_per_app_video_playback">视频回放</string>
+    <string name="thermal_control_per_app_dialer">拨号</string>
+    <string name="thermal_control_per_app_camera">相机</string>
+
+    <!-- Custom light color -->
+    <string name="custom_light_title">灯光颜色</string>
+    <string name="custom_light_on_time_title">灯光开启间隔时间 (ms)</string>
+    <string name="custom_light_off_time_title">灯光熄灭间隔时间 (ms)"</string>
+    <string name="value_equals_default">默认值</string>
+    <string name="show_light_on_zen_title">Blink during Do Not Disturb</string>
+	
+	<!-- Battery stats -->
+    <string name="battery_stats_reset">重置统计数据</string>
+    <string name="battery_stats_message">电池的历史统计数据将被重置</string>
+    <string name="ok_string">确定</string>
+	
+    <!-- Notch behavior -->
+    <string name="display_cutout_mode_title">缺口操作</string>
+    <string name="display_cutout_mode_normal">默认</string>
+    <string name="display_cutout_mode_hidden">隐藏</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">使铃声和通知音量相同</string>
 </resources>
