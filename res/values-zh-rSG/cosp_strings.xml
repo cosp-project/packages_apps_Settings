@@ -14,12 +14,250 @@
 
     <!-- COSP Settings -->
     <string name="cosp_settings_title">COSP设置</string>
-    <string name="cosp_settings_summary">额外的设置选项</string>
+    <string name="cosp_settings_summary">额外的设置</string>
 
     <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">截屏声音</string>
+    <string name="screenshot_sound_title">屏幕截图提示音</string>
 	
     <!-- Font picker -->
     <string name="font_picker_title">字体</string>
     <string name="font_picker_progress">应用新的字体\u2026</string>
+	
+    <!-- Privacy Guard -->
+    <string name="app_ops_settings">权限管理</string>
+    <string name="privacy_guard_manager_title">隐私防护</string>
+    <string name="privacy_guard_switch_label">启用隐私防护</string>
+    <string name="privacy_guard_dlg_title">确定启用隐私防护吗？</string>
+    <string name="privacy_guard_dlg_text">启用隐私防护后，应用程序将无法访问个人数据，如联系人，短信或通话记录。</string>
+    <string name="privacy_guard_dlg_system_app_text">为系统应用启用隐私防护时，该应用将无法访问或提供个人数据。 这可能会导致其他应用程序出现异常。</string>
+    <string name="privacy_guard_default_title">默认启用</string>
+    <string name="privacy_guard_manager_summary">管理哪些应用可以访问您的个人数据</string>
+    <string name="privacy_guard_no_user_apps">没有安装任何应用</string>
+    <string name="privacy_guard_help_title">帮助</string>
+    <string name="privacy_guard_reset_title">重置</string>
+    <string name="privacy_guard_reset_text">确定重置权限吗？</string>
+    <string name="privacy_guard_help_text">在此页面中，您可以通过简单地点击它们来选择要激活隐私防护的应用程序。 所选应用将无法访问您的个人数据，如联系人，短信或通话记录。 长按应用程序的条目会打开其应用程序详细信息页面。\n\n默认情况下不显示系统应用，但可以通过选择相应的菜单选项来显示。</string>
+    <string name="privacy_guard_manager_show_system_apps">显示系统应用</string>
+    <string name="privacy_guard_advanced_settings_title">高级选项</string>
+    <string name="privacy_guard_notification_title">显示通知</string>
+    <string name="loading">加载中\u2026</string>
+
+     <!-- App ops permissions -->
+    <string name="app_ops_permissions_allowed">允许</string>
+    <string name="app_ops_permissions_ignored">忽略</string>
+    <string name="app_ops_permissions_always_ask">总是询问</string>
+
+    <!-- App ops detail -->
+    <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (used <xliff:g id="count">%2$s</xliff:g>)</string>
+    <string name="app_ops_allowed_count">允许 <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_ignored_count">拒绝 <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_both_count">允许 <xliff:g id="count">%1$s</xliff:g>, 拒绝 <xliff:g id="count">%2$s</xliff:g></string>
+    <string name="app_ops_no_blockable_permissions">没有可被阻止的权限</string>
+	
+    <!-- App ops menu options -->
+    <string name="app_ops_show_user_apps">显示用户应用程序</string>
+    <string name="app_ops_show_system_apps">显示系统应用程序</string>
+    <string name="app_ops_reset_counters">重置 允许/拒绝 计数器</string>
+    <string name="app_ops_reset_confirm_title">确认重置计数器</string>
+    <string name="app_ops_reset_confirm_mesg">你确定你希望重置计数器吗？</string>
+	
+    <!-- Memory -->
+    <string name="memory_startup_apps_title">开机启动的应用程序</string>
+
+    <!-- Names of categories of app ops tabs - extension of AOSP -->
+    <string name="app_ops_categories_location">位置</string>
+    <string name="app_ops_categories_personal">隐私</string>
+    <string name="app_ops_categories_messaging">短信</string>
+    <string name="app_ops_categories_media">媒体</string>
+    <string name="app_ops_categories_device">设备</string>
+    <string name="app_ops_categories_run_in_background">后台运行</string>
+    <string name="app_ops_categories_bootup">启动</string>
+    <string name="app_ops_categories_other">其他</string>
+
+    <!-- User display names for app ops codes - extension of AOSP -->
+    <string name="app_ops_summaries_accept_handover">被其他应用程序唤醒</string>
+    <string name="app_ops_summaries_access_camera">使用相机</string>
+    <string name="app_ops_summaries_access_notifications">使用通知</string>
+    <string name="app_ops_summaries_activate_vpn">激活 VPN</string>
+    <string name="app_ops_summaries_add_voicemail">添加语音邮件</string>
+    <string name="app_ops_summaries_app_start_foreground">在前台启动即时应用程序</string>
+    <string name="app_ops_summaries_assist_screenshot">辅助截图</string>
+    <string name="app_ops_summaries_assist_structure">辅助结构</string>
+    <string name="app_ops_summaries_audio_accessibility_volume">无障碍功能音量</string>
+    <string name="app_ops_summaries_auto_start">开机启动</string>
+    <string name="app_ops_summaries_bind_accessibility_service">使用无障碍服务</string>
+    <string name="app_ops_summaries_bluetooth_scan">蓝牙扫描</string>
+    <string name="app_ops_summaries_change_wallpaper">更改壁纸</string>
+    <string name="app_ops_summaries_coarse_location">大致位置</string>
+    <string name="app_ops_summaries_delete_call_log">删除通话记录</string>
+    <string name="app_ops_summaries_delete_contacts">删除联系人</string>
+    <string name="app_ops_summaries_delete_mms">删除彩信</string>
+    <string name="app_ops_summaries_delete_sms">删除短信</string>
+    <string name="app_ops_summaries_draw_on_top">显示在其他应用上方</string>
+    <string name="app_ops_summaries_fine_location">精确位置</string>
+    <string name="app_ops_summaries_get_accounts">获取账号</string>
+    <string name="app_ops_summaries_get_usage_stats">获取应用使用情况统计</string>
+    <string name="app_ops_summaries_gps">GPS</string>
+    <string name="app_ops_summaries_install_packages">安装文件包</string>
+    <string name="app_ops_summaries_keep_device_awake">保持设备唤醒</string>
+    <string name="app_ops_summaries_make_phone_call">拨打电话</string>
+    <string name="app_ops_summaries_manage_ipsec_tunnels">管理 ipsec tunnels</string>
+    <string name="app_ops_summaries_mock_location">模拟位置</string>
+    <string name="app_ops_summaries_modify_calendar">修改日历</string>
+    <string name="app_ops_summaries_modify_call_log">修改通话记录</string>
+    <string name="app_ops_summaries_modify_clipboard">修改剪切板</string>
+    <string name="app_ops_summaries_modify_contacts">修改联系人</string>
+    <string name="app_ops_summaries_modify_settings">修改设置</string>
+    <string name="app_ops_summaries_monitor_high_power_location">监测高耗电位置信息</string>
+    <string name="app_ops_summaries_monitor_location">监测位置</string>
+    <string name="app_ops_summaries_mute_unmute_microphone">将麦克风静音或取消静音</string>
+    <string name="app_ops_summaries_neighboring_cells">近距离通信</string>
+    <string name="app_ops_summaries_phone_calls">接听来电</string>
+    <string name="app_ops_summaries_picture_in_picture">使用画中画模式</string>
+    <string name="app_ops_summaries_play_audio">播放音频</string>
+    <string name="app_ops_summaries_post_notification">发布通知</string>
+    <string name="app_ops_summaries_project_media">投影媒体</string>
+    <string name="app_ops_summaries_read_calendar">读取日历</string>
+    <string name="app_ops_summaries_read_call_log">读取通话记录</string>
+    <string name="app_ops_summaries_read_cell_broadcasts">读取小区广播消息</string>
+    <string name="app_ops_summaries_read_clipboard">读取剪切板</string>
+    <string name="app_ops_summaries_read_contacts">读取联系人</string>
+    <string name="app_ops_summaries_read_external_storage">读取外置储存</string>
+    <string name="app_ops_summaries_read_mms">读取彩信</string>
+    <string name="app_ops_summaries_read_phone_numbers">读取电话号码</string>
+    <string name="app_ops_summaries_read_phone_state">读取手机状态</string>
+    <string name="app_ops_summaries_read_sms">读取短信</string>
+    <string name="app_ops_summaries_receive_emergency_broadcast">接收紧急广播消息</string>
+    <string name="app_ops_summaries_receive_sms">接收短信</string>
+    <string name="app_ops_summaries_record_audio">录音</string>
+    <string name="app_ops_summaries_request_delete_packages">请求删除文件包</string>
+    <string name="app_ops_summaries_run_any_in_background">在后台运行（Pie）</string>
+    <string name="app_ops_summaries_run_in_background">在后台运行（Oreo）</string>
+    <string name="app_ops_summaries_scan_wifi">扫描Wi-Fi网络</string>
+    <string name="app_ops_summaries_send_mms">发送彩信</string>
+    <string name="app_ops_summaries_send_sms">发送短信</string>
+    <string name="app_ops_summaries_start_at_bootup">开机启动</string>
+    <string name="app_ops_summaries_start_foreground">前台运行</string>
+    <string name="app_ops_summaries_toast_window">显示 Toasts</string>
+    <string name="app_ops_summaries_toggle_bluetooth">开启蓝牙</string>
+    <string name="app_ops_summaries_toggle_mobile_data">开启移动数据</string>
+    <string name="app_ops_summaries_toggle_nfc">开启 NFC</string>
+    <string name="app_ops_summaries_toggle_wifi">开启 Wi-Fi</string>
+    <string name="app_ops_summaries_turn_on_screen">开启屏幕</string>
+    <string name="app_ops_summaries_use_alarm_volume">控制闹钟音量</string>
+    <string name="app_ops_summaries_use_audio_focus">控制音频焦点</string>
+    <string name="app_ops_summaries_use_bluetooth_volume">控制蓝牙音量</string>
+    <string name="app_ops_summaries_use_body_sensors">使用身体传感器</string>
+    <string name="app_ops_summaries_use_fingerprint">使用指纹</string>
+    <string name="app_ops_summaries_use_master_volume">控制主音量</string>
+    <string name="app_ops_summaries_use_media_buttons">使用媒体按键</string>
+    <string name="app_ops_summaries_use_media_volume">控制媒体音量</string>
+    <string name="app_ops_summaries_use_notification_volume">控制通知音量</string>
+    <string name="app_ops_summaries_use_ring_volume">控制铃声音量</string>
+    <string name="app_ops_summaries_use_vibrate">使用振动反馈</string>
+    <string name="app_ops_summaries_use_voice_volume">控制语音通话音量</string>
+    <string name="app_ops_summaries_wifi_change">更改 Wi-Fi 状态</string>
+    <string name="app_ops_summaries_write_external_storage">写入外置储存</string>
+    <string name="app_ops_summaries_write_mms">编辑彩信</string>
+    <string name="app_ops_summaries_write_sms">编辑短信</string>
+
+    <!-- User display names for app ops codes - extension of AOSP -->
+    <string name="app_ops_labels_accept_handover">被其他应用程序唤醒</string>
+    <string name="app_ops_labels_access_camera">使用相机</string>
+    <string name="app_ops_labels_access_notifications">使用通知</string>
+    <string name="app_ops_labels_activate_vpn">激活 VPN</string>
+    <string name="app_ops_labels_add_voicemail">添加语音邮件</string>
+    <string name="app_ops_labels_app_start_foreground">在前台启动即时应用程序</string>
+    <string name="app_ops_labels_assist_screenshot">辅助截图</string>
+    <string name="app_ops_labels_assist_structure">辅助结构</string>
+    <string name="app_ops_labels_audio_accessibility_volume">无障碍功能音量</string>
+    <string name="app_ops_labels_auto_start">开机启动</string>
+    <string name="app_ops_labels_bind_accessibility_service">使用无障碍服务</string>
+    <string name="app_ops_labels_bluetooth_scan">蓝牙扫描</string>
+    <string name="app_ops_labels_change_wallpaper">更改壁纸</string>
+    <string name="app_ops_labels_coarse_location">大致位置</string>
+    <string name="app_ops_labels_delete_call_log">删除通话记录</string>
+    <string name="app_ops_labels_delete_contacts">删除联系人</string>
+    <string name="app_ops_labels_delete_mms">删除彩信</string>
+    <string name="app_ops_labels_delete_sms">删除短信</string>
+    <string name="app_ops_labels_draw_on_top">显示在其他应用上方</string>
+    <string name="app_ops_labels_fine_location">精确位置</string>
+    <string name="app_ops_labels_get_accounts">获取账号</string>
+    <string name="app_ops_labels_get_usage_stats">获取应用使用情况统计</string>
+    <string name="app_ops_labels_gps">GPS</string>
+    <string name="app_ops_labels_install_packages">安装文件包</string>
+    <string name="app_ops_labels_keep_device_awake">保持设备唤醒</string>
+    <string name="app_ops_labels_make_phone_call">拨打电话</string>
+    <string name="app_ops_labels_manage_ipsec_tunnels">管理 ipsec tunnels</string>
+    <string name="app_ops_labels_mock_location">模拟位置</string>
+    <string name="app_ops_labels_modify_calendar">修改日历</string>
+    <string name="app_ops_labels_modify_call_log">修改通话记录</string>
+    <string name="app_ops_labels_modify_clipboard">修改剪切板</string>
+    <string name="app_ops_labels_modify_contacts">修改联系人</string>
+    <string name="app_ops_labels_modify_settings">修改设置</string>
+    <string name="app_ops_labels_monitor_high_power_location">监测高耗电位置信息</string>
+    <string name="app_ops_labels_monitor_location">监测位置</string>
+    <string name="app_ops_labels_mute_unmute_microphone">将麦克风静音或取消静音</string>
+    <string name="app_ops_labels_neighboring_cells">近距离通信</string>
+    <string name="app_ops_labels_phone_calls">拨打电话</string>
+    <string name="app_ops_labels_picture_in_picture">使用画中画模式</string>
+    <string name="app_ops_labels_play_audio">播放音频</string>
+    <string name="app_ops_labels_post_notification">发布通知</string>
+    <string name="app_ops_labels_project_media">投影媒体</string>
+    <string name="app_ops_labels_read_calendar">读取日历</string>
+    <string name="app_ops_labels_read_call_log">读取通话记录</string>
+    <string name="app_ops_labels_read_cell_broadcasts">读取小区广播消息</string>
+    <string name="app_ops_labels_read_clipboard">读取剪切板</string>
+    <string name="app_ops_labels_read_contacts">读取联系人</string>
+    <string name="app_ops_labels_read_external_storage">读取外置储存</string>
+    <string name="app_ops_labels_read_mms">读取彩信</string>
+    <string name="app_ops_labels_read_phone_numbers">读取电话号码</string>
+    <string name="app_ops_labels_read_phone_state">读取手机状态</string>
+    <string name="app_ops_labels_read_sms">读取短信</string>
+    <string name="app_ops_labels_receive_emergency_broadcast">接收紧急广播消息</string>
+    <string name="app_ops_labels_receive_sms">接收短信</string>
+    <string name="app_ops_labels_record_audio">录音</string>
+    <string name="app_ops_labels_request_delete_packages">请求删除文件包</string>
+    <string name="app_ops_labels_run_any_in_background">在后台运行（Pie）</string>
+    <string name="app_ops_labels_run_in_background">在后台运行（Oreo）</string>
+    <string name="app_ops_labels_scan_wifi">扫描Wi-Fi网络</string>
+    <string name="app_ops_labels_send_mms">发送彩信</string>
+    <string name="app_ops_labels_send_sms">发送短信</string>
+    <string name="app_ops_labels_start_at_bootup">开机启动</string>
+    <string name="app_ops_labels_start_foreground">前台运行</string>
+    <string name="app_ops_labels_toast_window">显示 Toasts</string>
+    <string name="app_ops_labels_toggle_bluetooth">开启蓝牙</string>
+    <string name="app_ops_labels_toggle_mobile_data">开启移动数据</string>
+    <string name="app_ops_labels_toggle_nfc">开启 NFC</string>
+    <string name="app_ops_labels_toggle_wifi">开启 Wi-Fi</string>
+    <string name="app_ops_labels_turn_on_screen">开启屏幕</string>
+    <string name="app_ops_labels_use_alarm_volume">控制闹钟音量</string>
+    <string name="app_ops_labels_use_audio_focus">控制音频焦点</string>
+    <string name="app_ops_labels_use_bluetooth_volume">控制蓝牙音量</string>
+    <string name="app_ops_labels_use_body_sensors">使用身体传感器</string>
+    <string name="app_ops_labels_use_fingerprint">使用指纹</string>
+    <string name="app_ops_labels_use_master_volume">控制主音量</string>
+    <string name="app_ops_labels_use_media_buttons">使用媒体按键</string>
+    <string name="app_ops_labels_use_media_volume">控制媒体音量</string>
+    <string name="app_ops_labels_use_notification_volume">控制通知音量</string>
+    <string name="app_ops_labels_use_ring_volume">控制铃声音量</string>
+    <string name="app_ops_labels_use_vibrate">使用振动反馈</string>
+    <string name="app_ops_labels_use_voice_volume">控制语音通话音量</string>
+    <string name="app_ops_labels_wifi_change">改变 Wi-Fi 状态</string>
+    <string name="app_ops_labels_write_external_storage">写入外置储存</string>
+    <string name="app_ops_labels_write_mms">编辑彩信</string>
+    <string name="app_ops_labels_write_sms">编辑短信</string>
+
+
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">激进的电池管理</string>
+    <string name="aggressive_battery_summary">更严格的省电措施</string>
+    <string name="aggressive_battery_warning_text">这些是省电功能。 它们可能会干扰意图在空闲时运行的服务，例如导航应用程序。 您可以将这些应用程序列入白名单，使其不受应用程序电池设置的影响。</string>
+    <string name="aggressive_idle_title">激进的休眠措施</string>
+    <string name="aggressive_idle_summary">更频繁地进入休眠状态并且减少唤醒</string>
+    <string name="aggressive_standby_title">激进的后台限制</string>
+    <string name="aggressive_standby_summary">限制应用在后台运行</string>
+    <string name="aggressive_battery_saver_title">省电模式下自动启用 </string> 
+    <string name="aggressive_battery_saver_summary">当使用省电模式时自动启用激进的电池管理</string>
+	
 </resources>
