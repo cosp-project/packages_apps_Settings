@@ -259,4 +259,8 @@
     <string name="aggressive_battery_saver_title">Auto-enable on battery saver </string> 
     <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
 	
+    <!-- Captive Portal -->
+    <string name="captive_portal_mode_title">Enable captive portal</string>
+    <string name="captive_portal_mode_summary">Enable connectivity check via captive portal</string>
+	
 </resources>
