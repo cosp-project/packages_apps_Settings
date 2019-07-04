@@ -21,17 +21,17 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Vyhledejte snímač otisků prstů na pravé straně telefonu.</string>
     <!-- Notification light settings -->
     <string name="lights_category_title">Nastavení LED</string>
-    <string name="notification_light_title">LED oznámení</string>
+    <string name="notification_light_title">Světelná signalizace</string>
     <string name="battery_light_title">LED signalizace baterie</string>
     <!-- Manual provisioning support -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> je <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-    <string name="sim_disabled">vypnuto</string>
+    <string name="sim_disabled">odpojena</string>
     <string name="sim_missing">chybějící nebo vadná</string>
     <string name="sim_enabler_need_disable_sim">SIM karta bude deaktivována. Přejete si pokračovat?</string>
-    <string name="sim_enabler_will_disable_sim_title">Varování</string>
-    <string name="sim_enabler_need_switch_data_service">Tato SIM karta bude zakázána a SIM <xliff:g id="slotid">%1$s</xliff:g> bude použita pro datové služby. Jste si jisti, že chcete pokračovat?</string>
-    <string name="sim_enabler_airplane_on">Nelze provést akci, když je aktivován mód letadlo.</string>
-    <string name="sim_enabler_in_call">Nelze provést tuto akci při hovoru.</string>
+    <string name="sim_enabler_will_disable_sim_title">Upozornění</string>
+    <string name="sim_enabler_need_switch_data_service">Tato SIM karta bude odpojena a SIM <xliff:g id="slotid">%1$s</xliff:g> bude použita pro datové služby. Jste si jisti, že chcete pokračovat?</string>
+    <string name="sim_enabler_airplane_on">Nelze provést akci, když je aktivován režim letadlo.</string>
+    <string name="sim_enabler_in_call">Tuto akci nelze provést během hovoru.</string>
     <string name="sim_enabler_both_inactive">Nelze zakázat všechny SIM karty</string>
     <string name="sim_enabler_enabling">Aktivování\u2026</string>
     <string name="sim_enabler_disabling">Deaktivování\u2026</string>
@@ -40,8 +40,36 @@
     <string name="sub_deactivate_success">SIM karta deaktivována.</string>
     <string name="sub_deactivate_failed">Deaktivace selhala.</string>
     <!-- Generic stuff used everywhere -->
-    <string name="reset">Restartovat</string>
-    <!-- Face auto unlock -->
-    <string name="face_auto_unlock_title">Automatické odemčení pomocí obličeje</string>
-    <string name="face_auto_unlock_summary">Odstraní zamykací obrazovku po odemknutí obličejem</string>
+    <string name="reset">Resetovat</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Rychlé odemknutí</string>
+    <string name="unlock_quick_unlock_control_summary">Automatické odemknutí, pokud je zadán správný PIN/heslo</string>
+    <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Profil optimalizace</string>
+    <string name="thermal_control_per_app_default">Žádná optimalizace</string>
+    <string name="thermal_control_per_app_benchmark">Výkon</string>
+    <string name="thermal_control_per_app_games">Hry</string>
+    <string name="thermal_control_per_app_browser">Prohlížeč</string>
+    <string name="thermal_control_per_app_video_playback">Přehrávání videa</string>
+    <string name="thermal_control_per_app_dialer">Číselník</string>
+    <string name="thermal_control_per_app_camera">Fotoaparát</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Barva kontrolky</string>
+    <string name="custom_light_on_time_title">Doba zapnutí kontrolky LED během pulsování (ms)</string>
+    <string name="custom_light_off_time_title">Doba vypnutí kontrolky LED během pulsování (ms)</string>
+    <string name="value_equals_default">předvolba</string>
+    <string name="show_light_on_zen_title">Blikat během režimu Nerušit</string>
+    <!-- Battery stats -->
+    <string name="battery_stats_reset">Resetovat statistiky</string>
+    <string name="battery_stats_message">Chystáte se obnovit historii statistiky baterie</string>
+    <string name="ok_string">Ok</string>
+    <!-- Notch behavior -->
+    <string name="display_cutout_mode_title">Vlastnosti výřezu</string>
+    <string name="display_cutout_mode_normal">Výchozí</string>
+    <string name="display_cutout_mode_hidden">Skrytý</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Spojit hlasitost vyzvánění &amp; oznámení</string>
+    <!-- Battery saving mode for Location - GPS will be disabled -->
+    <string name="location_mode_battery_saving_title">Úsporný režim baterie</string>
+    <string name="location_mode_battery_saving_summary">Pomocí tohoto nastavení můžete vypnout GPS. V důsledku toho bude vaše přesná poloha neznámá.</string>
 </resources>

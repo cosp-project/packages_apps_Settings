@@ -21,27 +21,55 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right">端末右側にある指紋認証センサーを探します</string>
     <!-- Notification light settings -->
     <string name="lights_category_title">ライトの設定</string>
-    <string name="notification_light_title">通知のライト</string>
-    <string name="battery_light_title">電池のライト</string>
+    <string name="notification_light_title">通知ライト</string>
+    <string name="battery_light_title">バッテリーライト</string>
     <!-- Manual provisioning support -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g>は<xliff:g id="status" example="disabled">%2$s</xliff:g>です</string>
     <string name="sim_disabled">無効</string>
-    <string name="sim_missing">挿入されていないか、問題があります。</string>
-    <string name="sim_enabler_need_disable_sim">SIMカードはアクティベート解除されます。続けますか？</string>
+    <string name="sim_missing">未検出または問題が発生しています</string>
+    <string name="sim_enabler_need_disable_sim">SIM カードはアクティベート解除されます。続行しますか?</string>
     <string name="sim_enabler_will_disable_sim_title">注意</string>
-    <string name="sim_enabler_need_switch_data_service">このSIMは無効になり、SIM <xliff:g id="slotid">%1$s</xliff:g>がデータサービスに使用されます。続けてもよろしいですか？</string>
-    <string name="sim_enabler_airplane_on">機内モードがオンになっている間はこの操作を実行することはできません</string>
+    <string name="sim_enabler_need_switch_data_service">この SIM は無効になり、SIM <xliff:g id="slotid">%1$s</xliff:g> がデータ通信に使用されます。続行しますか?</string>
+    <string name="sim_enabler_airplane_on">機内モードが ON になっている間はこの操作を実行することはできません</string>
     <string name="sim_enabler_in_call">通話中はこの操作を実行することはできません</string>
-    <string name="sim_enabler_both_inactive">全てのSIMカードを無効にはできません</string>
-    <string name="sim_enabler_enabling">アクティベート中\u2026</string>
-    <string name="sim_enabler_disabling">アクティベート解除中\u2026</string>
-    <string name="sub_activate_success">SIMをアクティベートしました</string>
-    <string name="sub_activate_failed">アクティベーションに失敗しました</string>
-    <string name="sub_deactivate_success">SIMをアクティベート解除しました</string>
+    <string name="sim_enabler_both_inactive">全ての SIM カードを無効にはできません</string>
+    <string name="sim_enabler_enabling">アクティベート中...</string>
+    <string name="sim_enabler_disabling">アクティベート解除中...</string>
+    <string name="sub_activate_success">SIM をアクティベートしました</string>
+    <string name="sub_activate_failed">アクティベートに失敗しました</string>
+    <string name="sub_deactivate_success">SIM をアクティベート解除しました</string>
     <string name="sub_deactivate_failed">アクティベート解除に失敗しました</string>
     <!-- Generic stuff used everywhere -->
     <string name="reset">リセット</string>
-    <!-- Face auto unlock -->
-    <string name="face_auto_unlock_title">自動フェイスアンロック</string>
-    <string name="face_auto_unlock_summary">顔認証した時ロック画面をスキップする</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
+    <string name="unlock_quick_unlock_control_summary">正しい PIN/パスワード が入力された時はロックを自動的に解除する</string>
+    <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">最適化のプロファイル</string>
+    <string name="thermal_control_per_app_default">最適化なし</string>
+    <string name="thermal_control_per_app_benchmark">パフォーマンス</string>
+    <string name="thermal_control_per_app_games">ゲーム</string>
+    <string name="thermal_control_per_app_browser">ブラウザ</string>
+    <string name="thermal_control_per_app_video_playback">ビデオ再生</string>
+    <string name="thermal_control_per_app_dialer">電話</string>
+    <string name="thermal_control_per_app_camera">カメラ</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">ライトカラー</string>
+    <string name="custom_light_on_time_title">LED 点滅時の光っている時間 (ms)</string>
+    <string name="custom_light_off_time_title">LED 点滅時の消えている時間 (ms)</string>
+    <string name="value_equals_default">既定</string>
+    <string name="show_light_on_zen_title">マナーモードの間はライトを点滅させる</string>
+    <!-- Battery stats -->
+    <string name="battery_stats_reset">統計をリセット</string>
+    <string name="battery_stats_message">バッテリーの使用統計はリセットされます</string>
+    <string name="ok_string">OK</string>
+    <!-- Notch behavior -->
+    <string name="display_cutout_mode_title">ノッチの表示</string>
+    <string name="display_cutout_mode_normal">既定</string>
+    <string name="display_cutout_mode_hidden">非表示</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">着信と通知の音量をリンク</string>
+    <!-- Battery saving mode for Location - GPS will be disabled -->
+    <string name="location_mode_battery_saving_title">バッテリー節約モード</string>
+    <string name="location_mode_battery_saving_summary">この設定で GPS を OFF にすることができます。その結果としてあなたの位置情報は不正確になります。</string>
 </resources>
