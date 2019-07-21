@@ -67,9 +67,15 @@
     <string name="display_cutout_mode_title">Vlastnosti výřezu</string>
     <string name="display_cutout_mode_normal">Výchozí</string>
     <string name="display_cutout_mode_hidden">Skrytý</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplikace přes celou obrazovku</string>
+    <string name="display_cutout_force_fullscreen_summary">Vynutit, aby aplikace ignorovaly výřez v displeji</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Spojit hlasitost vyzvánění &amp; oznámení</string>
     <!-- Battery saving mode for Location - GPS will be disabled -->
     <string name="location_mode_battery_saving_title">Úsporný režim baterie</string>
     <string name="location_mode_battery_saving_summary">Pomocí tohoto nastavení můžete vypnout GPS. V důsledku toho bude vaše přesná poloha neznámá.</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Gesto třemi prsty</string>
+    <string name="swipe_to_screenshot_gesture_summary">Přejeďte po displeji třemi prsty pro vytvoření snímku obrazovky</string>
 </resources>

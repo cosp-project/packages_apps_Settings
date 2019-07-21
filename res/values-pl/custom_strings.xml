@@ -16,32 +16,66 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Fingerprint location message -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Zlokalizuj czytnik linii papilarnych z przodu twojego telefonu.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Zlokalizuj czytnik linii papilarnych po lewej stronie twojego telefonu.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Zlokalizuj czytnik linii papilarnych po prawej stronie twojego telefonu.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Zlokalizuj czytnik linii papilarnych z przodu Twojego telefonu.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Zlokalizuj czytnik linii papilarnych po lewej stronie Twojego telefonu.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Zlokalizuj czytnik linii papilarnych po prawej stronie Twojego telefonu.</string>
     <!-- Notification light settings -->
     <string name="lights_category_title">Ustawienia diody LED</string>
     <string name="notification_light_title">Dioda powiadomień</string>
     <string name="battery_light_title">Dioda baterii</string>
     <!-- Manual provisioning support -->
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> jest <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s </xliff:g> jest <xliff:g id="status" example="disabled">%2$s </xliff:g></string>
     <string name="sim_disabled">wyłączona</string>
     <string name="sim_missing">brakująca lub uszkodzona</string>
     <string name="sim_enabler_need_disable_sim">Karta SIM zostanie wyłączona. Kontynuować?</string>
     <string name="sim_enabler_will_disable_sim_title">Uwaga</string>
     <string name="sim_enabler_need_switch_data_service">Ta karta SIM zostanie wyłączona i SIM <xliff:g id="slotid">%1$s </xliff:g> będzie używana do transmisji danych, kontynuować?</string>
-    <string name="sim_enabler_airplane_on">Nie można wykonać operacji, podczas włączonego trybu samolotowego.</string>
-    <string name="sim_enabler_in_call">Nie można wykonać operacji w czasie rozmowy.</string>
+    <string name="sim_enabler_airplane_on">Nie można wykonać operacji, gdy włączony jest tryb samolotowy.</string>
+    <string name="sim_enabler_in_call">Nie można wykonać operacji w trakcie rozmowy.</string>
     <string name="sim_enabler_both_inactive">Nie można wyłączyć wszystkich kart SIM</string>
     <string name="sim_enabler_enabling">Aktywowanie\u2026</string>
     <string name="sim_enabler_disabling">Dezaktywowanie\u2026</string>
-    <string name="sub_activate_success">SIM aktywowana.</string>
+    <string name="sub_activate_success">Karta SIM aktywowana.</string>
     <string name="sub_activate_failed">Aktywacja nie powiodła się.</string>
-    <string name="sub_deactivate_success">SIM dezaktywowana.</string>
+    <string name="sub_deactivate_success">Karta SIM nieaktywna.</string>
     <string name="sub_deactivate_failed">Dezaktywacja nie powiodła się.</string>
     <!-- Generic stuff used everywhere -->
-    <string name="reset">Resetuj</string>
-    <!-- Face auto unlock -->
-    <string name="face_auto_unlock_title">Automatyczne odblokowanie twarzą</string>
-    <string name="face_auto_unlock_summary">Nie pokazuj ekranu blokady po odblokowaniu twarzą</string>
+    <string name="reset">Reset</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Szybkie odblokowanie</string>
+    <string name="unlock_quick_unlock_control_summary">Odblokuj automatycznie, kiedy zostanie podany prawidłowy PIN/hasło</string>
+    <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Profil optymalizacji</string>
+    <string name="thermal_control_per_app_default">Brak optymalizacji</string>
+    <string name="thermal_control_per_app_benchmark">Wydajność</string>
+    <string name="thermal_control_per_app_games">Gry</string>
+    <string name="thermal_control_per_app_browser">Przeglądarka</string>
+    <string name="thermal_control_per_app_video_playback">Odtwarzanie wideo</string>
+    <string name="thermal_control_per_app_dialer">Telefon</string>
+    <string name="thermal_control_per_app_camera">Aparat</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Kolor LED</string>
+    <string name="custom_light_on_time_title">Czas świecenia diody LED podczas impulsu (ms)</string>
+    <string name="custom_light_off_time_title">Czas nieświecenia LED podczas pulsowania (ms)\"</string>
+    <string name="value_equals_default">domyślne</string>
+    <string name="show_light_on_zen_title">Mrugaj diodą, gdy aktywny jest tryb Nie przeszkadzać</string>
+    <!-- Battery stats -->
+    <string name="battery_stats_reset">Zresetuj statystyki</string>
+    <string name="battery_stats_message">Statystyki użycia baterii zostaną zresetowane</string>
+    <string name="ok_string">OK</string>
+    <!-- Notch behavior -->
+    <string name="display_cutout_mode_title">Wyświetlanie wcięcia</string>
+    <string name="display_cutout_mode_normal">Domyślna</string>
+    <string name="display_cutout_mode_hidden">Ukryty</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplikacje pełnoekranowe</string>
+    <string name="display_cutout_force_fullscreen_summary">Wymuś na aplikacjach ignorowanie przestrzeni wycięcia</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Połącz głośność dzwonka i powiadomień</string>
+    <!-- Battery saving mode for Location - GPS will be disabled -->
+    <string name="location_mode_battery_saving_title">Tryb oszczędzania baterii</string>
+    <string name="location_mode_battery_saving_summary">Możesz wyłączyć GPS za pomocą tego ustawienia. Dzięki temu Twoja dokładna lokalizacja będzie nieznana.</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Gest zrzutu ekranu</string>
+    <string name="swipe_to_screenshot_gesture_summary">Przeuń trzema palcami by zrobić screenshot</string>
 </resources>
